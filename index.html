@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FCC Title Fix - Just copy and paste the title here and it gives you the preformated .js filename. Lame, but so much less annoying.</title>
+</head>
+<body>
+    <h1>FCC Title Fix</h1>
+    <p>FCC Title Fix - Just copy and paste the title here and it gives you the preformated .js filename. Lame, but so much less annoying.</p>
+    <form onSubmit="convertsubmissioningToJSFileFormat(); return false;">
+      <p>Enter title to be converted to JS file name</p>
+      <p><input type="text" name="title" id="inputbox" placeholder="Enter title to be converted to JS file name" /></p>
+      <input type="submit" value="Submit">
+    </form>
+
+
+
+    <p id="demo"></p>
+    
+    
+    <script>
+    function convertsubmissioningToJSFileFormat() {
+    var submission = document.getElementById('inputbox').value;
+        if (submission != null){
+            document.getElementById("demo").innerHTML = submission.replace(/\W+/g, "-").trim().toLowerCase()+".js";
+        }
+
+    }   
+    convertStringToJSFileFormat();
+
+    </script>
+
+ 
+</body>
+</html>
