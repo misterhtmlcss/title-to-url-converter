@@ -1,0 +1,3 @@
+Simply I build every lesson Free Code Camp lesson on my laptop, so I basically make a ton of new files every day and I'm always copy and pasting the titles, which is so irritating because I hate having the way titles are written for file names. Additionally while I type quickly, nothing is faster than copy and pasting. So I made this little app to practice my regex and string manipulation skills.
+
+It's ugly, but I'm going to keep building it and hopefully it'll look better and better and gather some new features that I will find useful in addition to these 10 seconds saved 5-10x a day.
